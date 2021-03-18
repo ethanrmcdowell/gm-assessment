@@ -1,4 +1,3 @@
-import { select } from "async";
 import React, { useState } from "react";
 import {
   GoogleMap,
@@ -36,10 +35,6 @@ function Map() {
           position={{ lat: vhLocation.lat, lng: vhLocation.lng }}
           onClick={() => {
             setSelectedVehicle(vhLocation);
-          }}
-          icon={{
-            url: "/car.svg",
-            scaledSize: new window.google.maps.Size(55, 55),
           }}
         />
       ))}
