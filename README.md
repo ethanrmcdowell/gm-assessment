@@ -2,7 +2,7 @@
 
 "You’re part of a new and exciting project. You work for a major shipping company and will need to develop a front end web app for the fleet admin who owns a fleet of electric vehicles. As the fleet admin you will need to see all of your vehicles on a map and their charge levels at all times."
 
-My goal for this application was to ensure that the two absolutely necessary pieces of information, the car location and current battery, are very clearly shown at all times. I utilized a sidebar to display a summary of data while the map will always show the location of the vehicles. By clicking on the markers, you can find additional information (telephone number for the driver).
+My goal for this application was to ensure that the two absolutely necessary pieces of information, the vehicle location and current battery, are very clearly shown at all times. I utilized a sidebar to display a summary of data while the map will always show the location of the vehicles. By clicking on the markers, you can find additional vehicle information (telephone number for the driver).
 
 [Deployed Application](https://ethanrmcdowell.github.io/gm-assessment/)
 
