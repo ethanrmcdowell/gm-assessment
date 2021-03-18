@@ -7,9 +7,14 @@ const Navigation = () => {
       <div className="container-fluid">
         <form className="d-flex">
           <ul className="nav navbar-nav navbar-expand-lg">
-            <li className="nav-item pad">
+          <li className="nav-item pad">
               <a className="nav-link" href="/">
-                Home
+                HOME
+              </a>
+            </li>
+            <li className="nav-item pad">
+              <a className="nav-link" href="https://github.com/ethanrmcdowell/gm-assessment">
+                GITHUB REPOSITORY
               </a>
             </li>
           </ul>

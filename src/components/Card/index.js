@@ -1,14 +1,18 @@
-import React from 'react';
-import './style.css';
+// import React, {useState} from 'react';
+// import {handleCardClick} from '../Main';
+// import './style.css';
 
-const Card = () => {
-    return (
-        <div className='cardDiv'>
-            <h2>Card</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Battery: 87%</p>
-        </div>
-    )
-}
-
-export default Card;
+// function Card(props) {
+//     const [newLat, setNewLat] = useState(42.3314);
+//     const [newLng, setNewLng] = useState(-83.045);
+//     function handleLocation(){
+//         console.log(newLat);
+//         console.log(newLng);
+//     }
+//     return (
+//         <div className="cardSection" onClick={handleLocation}>
+//             <h2>{props.name}</h2>
+//             <p>{props.battery}</p>
+//         </div>
+//     )
+// }
