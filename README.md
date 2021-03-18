@@ -1,1 +1,5 @@
-# gm-assessment
+# GM Technical Assessment
+
+- React
+- Bootstrap / React Bootstrap
+
