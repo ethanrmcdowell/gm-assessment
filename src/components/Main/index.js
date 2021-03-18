@@ -73,7 +73,7 @@ const Main = () => {
   return (
     <div className="container mainDiv">
       <div className="row">
-        <div className="cardDiv col-3">
+        <div className="cardDiv col-lg-3 col-md-12">
           {locations.map((vehicles) => {
             return (
               <div className="cardSection">
@@ -85,7 +85,7 @@ const Main = () => {
             );
           })}
         </div>
-        <div className="col-9" style={{ width: "100vw", height: "90vh" }}>
+        <div className="col-lg-9 col-md-12" style={{ width: "100vw", height: "90vh" }}>
           <WrappedMap
             googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAG7ZRbokPv5-xQYLub5_yFbO5a04XygqY`}
             loadingElement={<div style={{ height: "100%" }} />}
