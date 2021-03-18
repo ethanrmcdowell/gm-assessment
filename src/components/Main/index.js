@@ -15,6 +15,15 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 function Map() {
   const [selectedVehicle, setSelectedVehicle] = useState(null);
+  function getColor(){
+    if(selectedVehicle.battery >= 80){
+      return 'green';
+    } else if(selectedVehicle.battery < 80 && selectedVehicle.battery >= 40 ){
+      return 'orange';
+    } else {
+      return 'red';
+    }
+  }
   return (
     <GoogleMap
       defaultZoom={9}
@@ -44,7 +53,9 @@ function Map() {
         >
           <div className="infoWindow">
             <p>Vehicle: {selectedVehicle.name}</p>
-            <p>Battery: {selectedVehicle.battery}</p>
+            <p
+              style={{color: getColor()}}
+              >Battery: {selectedVehicle.battery}%</p>
             <p>Driver: {selectedVehicle.driver.name}</p>
             <p>Ph: {selectedVehicle.driver.telephone}</p>
           </div>
@@ -55,6 +66,15 @@ function Map() {
 }
 
 const Main = () => {
+  function getColor(vehicles){
+    if(vehicles.battery >= 80){
+      return 'green';
+    } else if(vehicles.battery < 80 && vehicles.battery >= 40 ){
+      return 'orange';
+    } else {
+      return 'red';
+    }
+  }
   return (
     <div className="container mainDiv">
       <div className="row">
@@ -63,8 +83,9 @@ const Main = () => {
             return (
               <div className="cardSection">
                 <h2>Vehicle: {vehicles.name}</h2>
-                <p>{vehicles.battery} battery remaining</p>
-                <p>{vehicles.notes}</p>
+                <p style={{color: getColor(vehicles)}}>{vehicles.battery}% battery remaining</p>
+                <p>Driver: {vehicles.driver.name}</p>
+                <p>Notes: {vehicles.notes}</p>
               </div>
             );
           })}
