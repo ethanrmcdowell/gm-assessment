@@ -4,7 +4,7 @@
 
 My goal for this application was to ensure that the two absolutely necessary pieces of information, the vehicle location and current battery, are very clearly shown at all times. I utilized a sidebar to display a summary of data while the map will always show the location of the vehicles. By clicking on the markers, you can find additional vehicle information (telephone number for the driver).
 
-[Deployed Application](https://ethanrmcdowell.github.io/gm-assessment/)
+[Deployed Application](https://ethanrmcdowell.github.io/vehicle-dashboard/)
 
 ## FEATURES
 
