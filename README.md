@@ -1,4 +1,4 @@
-# GM Technical Assessment
+# VEHICLE DASHBOARD
 
 "You’re part of a new and exciting project. You work for a major shipping company and will need to develop a front end web app for the fleet admin who owns a fleet of electric vehicles. As the fleet admin you will need to see all of your vehicles on a map and their charge levels at all times."
 
