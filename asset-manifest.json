@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gm-assessment/static/css/main.bd02b1c3.chunk.css",
-    "main.js": "/gm-assessment/static/js/main.720320fa.chunk.js",
-    "main.js.map": "/gm-assessment/static/js/main.720320fa.chunk.js.map",
-    "runtime-main.js": "/gm-assessment/static/js/runtime-main.2a3cd2e2.js",
-    "runtime-main.js.map": "/gm-assessment/static/js/runtime-main.2a3cd2e2.js.map",
-    "static/js/2.3d689a72.chunk.js": "/gm-assessment/static/js/2.3d689a72.chunk.js",
-    "static/js/2.3d689a72.chunk.js.map": "/gm-assessment/static/js/2.3d689a72.chunk.js.map",
-    "index.html": "/gm-assessment/index.html",
-    "static/css/main.bd02b1c3.chunk.css.map": "/gm-assessment/static/css/main.bd02b1c3.chunk.css.map",
-    "static/js/2.3d689a72.chunk.js.LICENSE.txt": "/gm-assessment/static/js/2.3d689a72.chunk.js.LICENSE.txt"
+    "main.css": "/vehicle-finder/static/css/main.bd02b1c3.chunk.css",
+    "main.js": "/vehicle-finder/static/js/main.d5247a5d.chunk.js",
+    "main.js.map": "/vehicle-finder/static/js/main.d5247a5d.chunk.js.map",
+    "runtime-main.js": "/vehicle-finder/static/js/runtime-main.129c78af.js",
+    "runtime-main.js.map": "/vehicle-finder/static/js/runtime-main.129c78af.js.map",
+    "static/js/2.83c362f0.chunk.js": "/vehicle-finder/static/js/2.83c362f0.chunk.js",
+    "static/js/2.83c362f0.chunk.js.map": "/vehicle-finder/static/js/2.83c362f0.chunk.js.map",
+    "index.html": "/vehicle-finder/index.html",
+    "static/css/main.bd02b1c3.chunk.css.map": "/vehicle-finder/static/css/main.bd02b1c3.chunk.css.map",
+    "static/js/2.83c362f0.chunk.js.LICENSE.txt": "/vehicle-finder/static/js/2.83c362f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a3cd2e2.js",
-    "static/js/2.3d689a72.chunk.js",
+    "static/js/runtime-main.129c78af.js",
+    "static/js/2.83c362f0.chunk.js",
     "static/css/main.bd02b1c3.chunk.css",
-    "static/js/main.720320fa.chunk.js"
+    "static/js/main.d5247a5d.chunk.js"
   ]
 }
