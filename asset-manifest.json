@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vehicle-finder/static/css/main.bd02b1c3.chunk.css",
-    "main.js": "/vehicle-finder/static/js/main.d5247a5d.chunk.js",
-    "main.js.map": "/vehicle-finder/static/js/main.d5247a5d.chunk.js.map",
+    "main.js": "/vehicle-finder/static/js/main.f2b440ab.chunk.js",
+    "main.js.map": "/vehicle-finder/static/js/main.f2b440ab.chunk.js.map",
     "runtime-main.js": "/vehicle-finder/static/js/runtime-main.129c78af.js",
     "runtime-main.js.map": "/vehicle-finder/static/js/runtime-main.129c78af.js.map",
     "static/js/2.83c362f0.chunk.js": "/vehicle-finder/static/js/2.83c362f0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.129c78af.js",
     "static/js/2.83c362f0.chunk.js",
     "static/css/main.bd02b1c3.chunk.css",
-    "static/js/main.d5247a5d.chunk.js"
+    "static/js/main.f2b440ab.chunk.js"
   ]
 }
